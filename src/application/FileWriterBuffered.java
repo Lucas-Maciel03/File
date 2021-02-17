@@ -8,7 +8,7 @@ public class FileWriterBuffered {
 
 	public static void main(String[] args) {
 		
-		String[] lines = new String[] {"lucas", "lorena", "Maria", "Ronaldo"};
+		String[] lines = new String[] {"Bom dia", "Boa tarde", "Boa Noite"};
 		String path = "C:\\Users\\Samsung\\Documents\\in.txt";
 		
 		try(BufferedWriter bw =  new BufferedWriter(new FileWriter(path, true/*para adicionar no fim do arquivo*/))) {
